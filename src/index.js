@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import ReactDOM from "react-dom";
 import axios from "axios";
 
@@ -24,10 +25,17 @@ const App = () => {
   return (
     <div className={darkMode ? "dark-mode App" : "App"}>
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
-      <Charts coinData={coinData} />
+      <Route exact path="/">
+        <Charts coinData={coinData} />
+      </Route>
+      <Route path="/about">
+        <div>About page</div>
+      </Route>
     </div>
   );
 };
 
 const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+ReactDOM.render(<Router>
+  <App />
+</Router>, rootElement);

@@ -33,9 +33,9 @@ Follow these steps for completing your project.
   
 ## Minimum Viable Product
 
-- [ ] Build a custom hook that let's you save data to localStorage
-- [ ] Build a second custom hook that sets the `dark-mode` class on the body element
-- [ ] Compose your two new hooks together to be able to set and persist your user's dark mode preference in your app
+- [*] Build a custom hook that let's you save data to localStorage
+- [*] Build a second custom hook that sets the `dark-mode` class on the body element
+- [*] Compose your two new hooks together to be able to set and persist your user's dark mode preference in your app
 
 ## STEP 1 - useLocalStorage
 
@@ -127,6 +127,6 @@ After finishing your required elements, you can push your work further. These go
 
 ## Submission Format
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into `main` (student's Repository). **Please don't merge your own pull request**
-- [ ] From the home page of your repo, make sure you have your branch selected
-- [ ] Copy the URL and paste it into Canvas to submit your project
+- [*] Submit a Pull-Request to merge <firstName-lastName> Branch into `main` (student's Repository). **Please don't merge your own pull request**
+- [*] From the home page of your repo, make sure you have your branch selected
+- [*] Copy the URL and paste it into Canvas to submit your project
